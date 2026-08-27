@@ -1,20 +1,23 @@
-# template-base
+# pipeline-Nextflow-lib
 
-[![GitHub release](https://img.shields.io/github/v/release/TheBoutrosLab/template-base)](https://github.com/TheBoutrosLab/template-base/actions/workflows/prepare-release.yaml)
-
-Template Repository for the Boutros Lab general repos. Describe a simple overview of use/purpose here.
+Nextflow utility library
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+A set of Groovy-based Nextflow utilities for use in pipelines
+
+### WorkflowFinalizer
+
+Series of steps taken at the end of a main workflow.
+- `tarProcessLogs` - Tars the `process-log` directory of a successful workflow run to compress and combine the many small log files into a single tarball
 
 ## License
 
-Author: Name1, Name2
+Author: Yash Patel
 
 [This project] is licensed under the GNU General Public License version 2. See the file LICENSE.md for the terms of the GNU GPL license.
 
-<one line to give the project/program's name and a brief idea of what it does.>
+pipeline-Nextflow-lib collects utilities for use within pipelines.
 
 Copyright (C) 2026 Sanford Burnham Prebys Medical Discovery Institute ("Boutros Lab")
 
